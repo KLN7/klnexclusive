@@ -1,0 +1,245 @@
+-- made by kryxn|KLN
+-- Version: exclusive
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local UTGGui = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local CoolGui = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local infiniteyield = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local prisonlife = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local chatbypass = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local KeyLogin = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local GetKey = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local DiscordCopy = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local Submit = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.145348847, 0, 0.334578812, 0)
+main.Size = UDim2.new(0, 682, 0, 343)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 49, 49)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = main
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 682, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "KLN Exclusive Script"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(167, 167, 167)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(77, 77, 77))}
+UIGradient_2.Parent = TextLabel
+
+UTGGui.Name = "UTG Gui"
+UTGGui.Parent = main
+UTGGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UTGGui.Position = UDim2.new(0.0205278583, 0, 0.183673471, 0)
+UTGGui.Size = UDim2.new(0, 200, 0, 50)
+UTGGui.Font = Enum.Font.SourceSans
+UTGGui.Text = "UTG Gui"
+UTGGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+UTGGui.TextSize = 25.000
+UTGGui.TextWrapped = true
+UTGGui.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+UICorner_3.Parent = UTGGui
+
+CoolGui.Name = "CoolGui"
+CoolGui.Parent = main
+CoolGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolGui.Position = UDim2.new(0.0205278583, 0, 0.355685115, 0)
+CoolGui.Size = UDim2.new(0, 200, 0, 50)
+CoolGui.Font = Enum.Font.SourceSans
+CoolGui.Text = "C00lGui"
+CoolGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolGui.TextSize = 25.000
+CoolGui.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+UICorner_4.Parent = CoolGui
+
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = main
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.Position = UDim2.new(0.353372425, 0, 0.355685115, 0)
+infiniteyield.Size = UDim2.new(0, 200, 0, 50)
+infiniteyield.Font = Enum.Font.SourceSans
+infiniteyield.Text = "Infinite Yield"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextSize = 25.000
+infiniteyield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_5.Parent = infiniteyield
+
+fly.Name = "fly"
+fly.Parent = main
+fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fly.Position = UDim2.new(0.693548441, 0, 0.183673441, 0)
+fly.Size = UDim2.new(0, 200, 0, 50)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 25.000
+fly.MouseButton1Down:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+UICorner_6.Parent = fly
+
+prisonlife.Name = "prisonlife"
+prisonlife.Parent = main
+prisonlife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+prisonlife.Position = UDim2.new(0.353372455, 0, 0.183673441, 0)
+prisonlife.Size = UDim2.new(0, 200, 0, 50)
+prisonlife.Font = Enum.Font.SourceSans
+prisonlife.Text = "Prison Life Script"
+prisonlife.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonlife.TextSize = 25.000
+prisonlife.MouseButton1Down:Connect(function()
+	
+end)
+
+UICorner_7.Parent = prisonlife
+
+chatbypass.Name = "chatbypass"
+chatbypass.Parent = main
+chatbypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatbypass.Position = UDim2.new(0.693548441, 0, 0.355685115, 0)
+chatbypass.Size = UDim2.new(0, 200, 0, 50)
+chatbypass.Font = Enum.Font.SourceSans
+chatbypass.Text = "Chay Bypass"
+chatbypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+chatbypass.TextSize = 25.000
+chatbypass.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+UICorner_8.Parent = chatbypass
+
+KeyLogin.Name = "KeyLogin"
+KeyLogin.Parent = ScreenGui
+KeyLogin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyLogin.Position = UDim2.new(0.315614611, 0, 0.146059781, 0)
+KeyLogin.Size = UDim2.new(0, 354, 0, 416)
+
+TextLabel_2.Parent = KeyLogin
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 354, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Key Login"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 25.000
+TextLabel_2.TextWrapped = true
+
+UICorner_9.Parent = TextLabel_2
+
+UICorner_10.Parent = KeyLogin
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(180, 180, 180)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(102, 102, 102))}
+UIGradient_3.Parent = KeyLogin
+
+GetKey.Name = "GetKey"
+GetKey.Parent = KeyLogin
+GetKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GetKey.Position = UDim2.new(0.0875706226, 0, 0.822115362, 0)
+GetKey.Size = UDim2.new(0, 144, 0, 50)
+GetKey.Font = Enum.Font.SourceSans
+GetKey.Text = "Get Key!"
+GetKey.TextColor3 = Color3.fromRGB(0, 0, 0)
+GetKey.TextSize = 25.000
+GetKey.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {title = "Copied!", text = "Link Successfully copied!", Icon = "", Duration = 4})
+	wait(1)
+	setclipboard("https://pastebin.com/rAUdUS87")
+end)
+
+UICorner_11.Parent = GetKey
+
+DiscordCopy.Name = "DiscordCopy"
+DiscordCopy.Parent = KeyLogin
+DiscordCopy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DiscordCopy.Position = UDim2.new(0.576271176, 0, 0.822115362, 0)
+DiscordCopy.Size = UDim2.new(0, 128, 0, 50)
+DiscordCopy.Font = Enum.Font.SourceSans
+DiscordCopy.Text = "Our Discord"
+DiscordCopy.TextColor3 = Color3.fromRGB(0, 0, 0)
+DiscordCopy.TextSize = 25.000
+DiscordCopy.MouseButton1Click:Connect(function()
+	game.StarterGui:SetCore("SendNotification", {title = "Copied!", text = "Link Successfully copied!", Icon = "", Duration = 4})
+	wait(1)
+	setclipboard("https://discord.gg/e4my4sbBdT")
+end)
+
+UICorner_12.Parent = DiscordCopy
+
+TextBox.Parent = KeyLogin
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Position = UDim2.new(0.217514127, 0, 0.276442319, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 79)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "INSERT KEY HERE"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 25.000
+
+Submit.Name = "Submit"
+Submit.Parent = KeyLogin
+Submit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Submit.Position = UDim2.new(0.217514127, 0, 0.528846145, 0)
+Submit.Size = UDim2.new(0, 200, 0, 50)
+Submit.Font = Enum.Font.SourceSans
+Submit.Text = "Submit"
+Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Submit.TextSize = 25.000
+Submit.MouseButton1Click:Connect(function()
+	if TextBox.Text == "klnexclusive" then
+		KeyLogin.Visible = false
+		wait(0.5)
+		main.Visible = true
+	end
+end)
+
+UICorner_13.Parent = Submit
